@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Крестики-нолики</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Игра "Крестики-нолики"</h1>
+    <div id="score">
+      <p>Игрок: <span id="playerScore">0</span></p>
+      <p>Компьютер: <span id="computerScore">0</span></p>
+    </div>
+    <table id="board">
+      <tr>
+        <td onclick="cellClicked(0, 0)" id="cell-0-0"></td>
+        <td onclick="cellClicked(0, 1)" id="cell-0-1"></td>
+        <td onclick="cellClicked(0, 2)" id="cell-0-2"></td>
+      </tr>
+      <tr>
+        <td onclick="cellClicked(1, 0)" id="cell-1-0"></td>
+        <td onclick="cellClicked(1, 1)" id="cell-1-1"></td>
+        <td onclick="cellClicked(1, 2)" id="cell-1-2"></td>
+      </tr>
+      <tr>
+        <td onclick="cellClicked(2, 0)" id="cell-2-0"></td>
+        <td onclick="cellClicked(2, 1)" id="cell-2-1"></td>
+        <td onclick="cellClicked(2, 2)" id="cell-2-2"></td>
+      </tr>
+    </table>
+    <button id="restartButton" onclick="restartGame()">Заново</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
