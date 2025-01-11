@@ -2,7 +2,7 @@
 
 Проект — реализация классической игры "Крестики-нолики" с возможностью игры против компьютера.  
 
-![Preview](https://via.placeholder.com/800x400?text=Превью+игры)  
+![Preview](https://github.com/Efrem199/Tic-Tac-Toe-Impossible/blob/main/Preview.png)  
 *Пример игрового интерфейса*  
 
 ---
@@ -53,10 +53,10 @@
 
 ## Скриншоты
 
-![Скриншот 1](https://via.placeholder.com/600x400?text=Скриншот+1)  
+![Скриншот 1](https://github.com/Efrem199/Tic-Tac-Toe-Impossible/blob/main/Screenshot-1.png)  
 *Начало игры*  
 
-![Скриншот 2](https://via.placeholder.com/600x400?text=Скриншот+2)  
+![Скриншот 2](https://github.com/Efrem199/Tic-Tac-Toe-Impossible/blob/main/Screenshot-2.png)  
 *Игра в процессе*  
 
 ---
